@@ -1,0 +1,6 @@
+@CoreSistemaMasajes_HostAddress = http://localhost:5122
+
+GET {{CoreSistemaMasajes_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
