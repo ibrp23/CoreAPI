@@ -10,6 +10,6 @@ namespace CoreSistemaMasajes.Models
         [StringLength(50)]
         public string NombreRol { get; set; } // Admin, Consulta, Mantenimiento
 
-        public ICollection<Usuario> Usuarios { get; set; }
+        
     }
 }

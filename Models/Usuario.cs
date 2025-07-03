@@ -19,8 +19,6 @@ namespace CoreSistemaMasajes.Models
 
         public bool Activo { get; set; } = true;
 
-        public DateTime UltimoLogin { get; set; } = DateTime.Now;
-
         // Relación con Empleado (opcional)
         public int? EmpleadoId { get; set; }
         public Empleado? Empleado { get; set; }
